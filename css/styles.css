@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #55536E;
+    overflow: hidden;
+}
+
+.overlay {
+  /* display:none; */
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px 10px 35px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 20px -2px #444;
+  transition: 1s ease all;
+  z-index: 10;
+
+}
+
+.overlay2 {
+  display:none;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px 10px 35px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 20px -2px #444;
+  transition: 1s ease all;
+  z-index: 10;
+
+}
+
+#ageMsg {
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+
+
+#list-data li {
+  display: inline-block;
+  max-width: 250px;
+   margin-bottom: 10px;
+}
+
+li img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 2.5px solid #fff;
+  padding: 40px 60px;
+  max-width: 500px
+}
+
+
+#desc {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem
+
+}
+
+#score {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: .5px 1px #888888;;
+}
+
+#button-list {
+  margin: 40px 40px;
+}
+
+#guess-list {
+  margin: 40px 40px;
+}
+
+#scoreContainer {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 2rem;
+
+}
+
+.bg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-image: linear-gradient(to bottom, #ff9a9e 0%, #fad0c4 70%, #fad0c4 80%, #fff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
